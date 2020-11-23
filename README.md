@@ -64,4 +64,7 @@ todo m1ch
   - TP2 need to be trustworthy people with different agendas and check each other
   - possibly publish screenshot of admin-visible result to everyone BUT TP1, with the last part of the token painted over.
     - so every voter can check they were counted and that announced result still matches screenshot
-
+- voter can vote in multiple columns where only single choice is allowed
+  - --> classic invalid vote which is not counted
+- voter votes with nickname or unknown token
+  - --> TP2 don't count that vote
