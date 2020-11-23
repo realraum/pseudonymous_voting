@@ -9,6 +9,10 @@ So we try a bad approximation of somewhat private online voting
 
 todo m1ch
 
+- voters vote with token instead of name
+- TP1 generates tokens and secretly hands each voters their token
+- TP2 only sees the votes of the tokens (not names) and announces the result
+
 ## Usage of the scripts
 
 ### as TP1
