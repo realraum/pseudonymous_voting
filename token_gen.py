@@ -5,8 +5,8 @@ import secrets
 import base64
 import random
 
-tokenlen_short=3
-tokenlen_full=tokenlen_short+2
+tokenlen_short=2
+tokenlen_full=tokenlen_short+3
 
 tokens_short = []
 tokens_full = []
