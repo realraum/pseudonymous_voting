@@ -66,5 +66,5 @@ todo m1ch
     - so every voter can check they were counted and that announced result still matches screenshot
 - voter can vote in multiple columns where only single choice is allowed
   - --> classic invalid vote which is not counted
-- voter votes with nickname or unknown token
+- random person votes with someones or own nickname or unknown token
   - --> TP2 don't count that vote
