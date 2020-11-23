@@ -72,6 +72,9 @@ todo m1ch
   - TP2 delete votes with unknown tokens / full names
   - TP2 publish list of short-tokens that voted
   - voters can compare short-list of TP1 and TP2
+- Someone can generate all possible full-token values from a short-token and spam the vote.
+  - it's impossible to filter out the spam values from the one valid vote
+  - whole process needs to be repeated
 - Someone can toke a short-token from list from TP1 and vote for another person
   - that's why the full-token is secret and only full-tokens may vote
 - TP1 could generate more tokens than voters and vote multiple times themselves
