@@ -1,7 +1,7 @@
 # pseudonymous_voting r3 tries online voting with a low degree of privacy
 
 - Right during CoViD19 we have a general assembly.
-- Some members which to vote anonymously even if a trused online voting system cannot exist
+- Some members wish to vote anonymously, even if a trused online voting system cannot exist
 
 So we try a bad approximation of somewhat private online voting
 
