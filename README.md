@@ -31,3 +31,37 @@ todo m1ch
 
 
 ## The ideas behind the system
+
+### Base assumptions
+
+- TP1 has a direct channel to reach each individual voter
+- TP2 has a broadcast channel to reach every voter BUT TP1
+
+- TP1 and TP2 don't cooperate
+- All voters will keep screenshot secret from TP1
+- TP1 are trustworthy and check each other
+- TP2 are several trustworthy people that check each other
+- voters are not incompetent
+- nuudle is useable and hidden votes are supported
+- tokens can be sent privately
+- nuudle does not care which voters connect's to it and keeps origin-ip of voter secret
+
+- nobody knows wo is which token (except TP1)
+  - TP1 will never see the nuudle result
+
+- TP2 do not who which token is who so are inclined to treat all votes equally
+- TP2 don't invent results
+
+### Attacks and Checks
+
+- TP1 could generate more tokens than voters and vote multiple times themselves
+  - TP2s need to count number of tokens
+  - voters need to check if their token is in list of short-tokens published by TP1 AND published by TP2
+- TP1 could forget to send some people their tokens
+  - voters need to complain if they did not get a token
+  - TP2 must not start vote before everybody got a token
+- TP2 could invent result instead of counting and announce invention
+  - TP2 need to be trustworthy people with different agendas and check each other
+  - possibly publish screenshot of admin-visible result to everyone BUT TP1, with the last part of the token painted over.
+    - so every voter can check they were counted and that announced result still matches screenshot
+
