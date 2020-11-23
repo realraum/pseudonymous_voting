@@ -64,7 +64,11 @@ todo m1ch
   - TP2 need to be trustworthy people with different agendas and check each other
   - possibly publish screenshot of admin-visible result to everyone BUT TP1, with the last part of the token painted over.
     - so every voter can check they were counted and that announced result still matches screenshot
+- TP2 could still make everything up
+  - that's why they are called "Trusted Persons" - if they make shit up, we trust them to do a good job
 - voter can vote in multiple columns where only single choice is allowed
   - --> classic invalid vote which is not counted
 - random person votes with someones or own nickname or unknown token
   - --> TP2 don't count that vote
+- TP2 could ignore TP1's votes and falsify shit
+  - yes that can happen, since TP1 can't check the result even less than everybody else
